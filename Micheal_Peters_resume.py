@@ -21,7 +21,7 @@ with st.sidebar:
     
     # --- DOWNLOAD CV BUTTON ---
     st.subheader("📄 Resume PDF")
-    resume_path = "Mikes_full_CV.pdf"
+    resume_path = "Mikes_full_cv.pdf"
     
     if os.path.exists(resume_path):
         with open(resume_path, "rb") as file:
@@ -29,7 +29,7 @@ with st.sidebar:
         st.download_button(
             label="Download My Full CV",
             data=pdf_byte,
-            file_name="Mikes_full_CV.pdf",
+            file_name="Mikes_full_cv.pdf",
             mime="application/pdf",
             help="Click here to download my official academic CV."
         )
@@ -58,7 +58,6 @@ if select_option == "Resume":
     if not st.session_state.name:
         temp_name = st.text_input('Hi there!, kindly provide your name😊?')
         temp_addressed = st.selectbox('How are you addressed?', options=['Mr', 'Miss', 'Mrs', 'Master', 'Mistress', 'Sir', 'Ma'])
-        
         if st.button('Submit'):
             if temp_name:
                 st.session_state.name = temp_name
