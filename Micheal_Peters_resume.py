@@ -34,7 +34,7 @@ with st.sidebar:
             help="Click here to download my official academic CV."
         )
     else:
-        st.info("Upload 'Micheal_Peters_CV.pdf' to GitHub to enable download.")
+        st.info("Upload 'Mikes_full_CV.pdf' to GitHub to enable download.")
 
     st.markdown("---")
     
@@ -155,32 +155,32 @@ if select_option == "Resume":
     st.markdown("### PROJECTS")
     st.markdown(
         """
-        **Explainable MTN Customer Churn Prediction App | Live Link: mtn customerchurn.streamlit.app
+        Explainable MTN Customer Churn Prediction App | Live Link: mtn customerchurn.streamlit.app
         - Developed a classification model using Scikit-learn to identify high-risk customers, 
         achieving 75% accuracy.
         - Performed end-to-end data cleaning and feature engineering to address class 
         imbalances.
         - Deployed via Streamlit to provide stakeholders with an interactive interface for real time retention insights.
                 
-        **Student Performance Analytics Engine
+        Student Performance Analytics Engine
         - Built a predictive system to forecast student outcomes with 85% accuracy.
         - Leveraged pedagogical insights from my Technology Education background to 
         engineer features related to socio-economic factors.
         - Aimed at providing early-warning systems for educational institutions to improve 
         intervention strategies.
         
-        **Car Price Prediction
+        Car Price Prediction
         - Engineered a Regression model to estimate vehicle market values, achieving 81% 
         accuracy.
         - Optimized model performance through outlier detection and advanced categorical 
         encoding of vehicle specifications.
         
-        **Predictive Diabetes Health Tracker
+        Predictive Diabetes Health Tracker
         - Developed a healthcare-focused model to predict the likelihood of diabetes based 
         on clinical metrics.
         - Conducted deep EDA to identify critical correlations between BMI, glucose levels, 
         and patient outcomes.
-        Real-Time Global Weather Intelligence | Live link: https://whether-app-mop.streamlit.app/
+        Real-Time Global Weather Intelligence | Live link: https://whether-appmop.streamlit.app/
         - Architected a Python application using Streamlit that fetches and visualizes live 
         meteorological data via API.
         - Demonstrated proficiency in handling real-time data streams and cloud-based 
