@@ -31,7 +31,7 @@ with st.sidebar:
             data=pdf_byte,
             file_name="Mikes_full_cv.pdf",
             mime="application/pdf",
-            help="Click here to download my official academic CV."
+            help="Click here to download my official CV."
         )
     else:
         st.info("Upload 'Mikes_full_CV.pdf' to GitHub to enable download.")
